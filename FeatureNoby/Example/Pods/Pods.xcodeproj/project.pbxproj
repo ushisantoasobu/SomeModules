@@ -14,6 +14,8 @@
 		640FAFAF426E2B2ED58689E62C0C1051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		66B69EBA73BFEA870A90218AA0F7D9E9 /* Pods-FeatureNoby_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1D8AF9D1FCC4DB448D386946D6E617 /* Pods-FeatureNoby_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A0319BE13BE0590EE4D6B1E98FC2AC6 /* Pods-FeatureNoby_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2E1191D3B94442E855EF19EBCD1A7AB /* Pods-FeatureNoby_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBB6D4DF26F0AF5700C05610 /* FeatureNobyTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6D4DE26F0AF5700C05610 /* FeatureNobyTopViewController.swift */; };
+		BBB6D4E126F0AF6000C05610 /* FeatureNobyTopViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB6D4E026F0AF6000C05610 /* FeatureNobyTopViewController.storyboard */; };
 		D6B66E9A8969520E07C5215ED026CB57 /* Pods-FeatureNoby_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BC3FE0211C06F610B55DF7D23CF79 /* Pods-FeatureNoby_Example-dummy.m */; };
 		F7A078E3FB9F2633AAE4D35AC0D008C8 /* Pods-FeatureNoby_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F969E1BDE46269352538ABE7E596CCA8 /* Pods-FeatureNoby_Tests-dummy.m */; };
 		FFAB08B817AC6B0118DD941F2D0CF221 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2E5015E1B926D79D5833A0CDA32E1 /* ReplaceMe.swift */; };
@@ -37,34 +39,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08960A1B690F894060B78C6D6BF4A3A8 /* FeatureNoby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FeatureNoby.framework; path = FeatureNoby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08960A1B690F894060B78C6D6BF4A3A8 /* FeatureNoby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeatureNoby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3257B6626D63A72A48FBF9FC3346E811 /* Pods-FeatureNoby_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FeatureNoby_Tests.modulemap"; sourceTree = "<group>"; };
 		49DF9F48C2D95221EC8517277947621E /* Pods-FeatureNoby_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FeatureNoby_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5811DC00905997CF880812675AFDB94E /* Pods-FeatureNoby_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeatureNoby_Example-Info.plist"; sourceTree = "<group>"; };
 		5E6ABB83590C196108705E9A693735D1 /* Pods-FeatureNoby_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FeatureNoby_Example.modulemap"; sourceTree = "<group>"; };
 		5EBF81A6265167EE70172CBB598321D9 /* FeatureNoby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeatureNoby.debug.xcconfig; sourceTree = "<group>"; };
-		64901CFC1B02AE21C181E3D689CC903F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		64901CFC1B02AE21C181E3D689CC903F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6B6904724415149855A4D2981809DBCA /* Pods-FeatureNoby_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeatureNoby_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DA2E5015E1B926D79D5833A0CDA32E1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FeatureNoby/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9506F0E058124E9BFFE6ED8A1CD7A8DD /* Pods-FeatureNoby_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeatureNoby_Tests-Info.plist"; sourceTree = "<group>"; };
 		9AC4E037E617FF07C5A8E830752D8431 /* Pods-FeatureNoby_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeatureNoby_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F1D8AF9D1FCC4DB448D386946D6E617 /* Pods-FeatureNoby_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FeatureNoby_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A2218CAA558B51186FEC7B2C1AB90EBA /* FeatureNoby-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FeatureNoby-Info.plist"; sourceTree = "<group>"; };
 		A90B6CD3C08DC5175BFB3C45C6D83655 /* FeatureNoby-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeatureNoby-prefix.pch"; sourceTree = "<group>"; };
 		B0787D9898581E79C79B67CFD0F3AF9A /* Pods-FeatureNoby_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeatureNoby_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B71C3D2027694D9AB0D90ECCC222C7E6 /* Pods-FeatureNoby_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeatureNoby_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BD855CE2BFB8146E73B5281905518266 /* Pods_FeatureNoby_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FeatureNoby_Tests.framework; path = "Pods-FeatureNoby_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB6D4DE26F0AF5700C05610 /* FeatureNobyTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureNobyTopViewController.swift; sourceTree = "<group>"; };
+		BBB6D4E026F0AF6000C05610 /* FeatureNobyTopViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeatureNobyTopViewController.storyboard; sourceTree = "<group>"; };
+		BD855CE2BFB8146E73B5281905518266 /* Pods_FeatureNoby_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeatureNoby_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DB074735D5170A8CB5D085A595B2F4 /* Pods-FeatureNoby_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FeatureNoby_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C7EB4D4F15C6FE92423462EC09526D41 /* FeatureNoby-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeatureNoby-dummy.m"; sourceTree = "<group>"; };
-		C883D78CBE51D6B329A7BBA9A5D77F0D /* Pods_FeatureNoby_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FeatureNoby_Example.framework; path = "Pods-FeatureNoby_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C883D78CBE51D6B329A7BBA9A5D77F0D /* Pods_FeatureNoby_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeatureNoby_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51C3AC6C10DD7F212CFD0BAD86A9E07 /* FeatureNoby-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeatureNoby-umbrella.h"; sourceTree = "<group>"; };
-		D58DF0DFCB668DD6BB73688B413C1D5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D58DF0DFCB668DD6BB73688B413C1D5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E22BC3FE0211C06F610B55DF7D23CF79 /* Pods-FeatureNoby_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FeatureNoby_Example-dummy.m"; sourceTree = "<group>"; };
 		E265569F49E36A4D104692E9C6F85A1C /* Pods-FeatureNoby_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FeatureNoby_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EACF134D62F0FAA18BA3EC1174A285E7 /* FeatureNoby.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FeatureNoby.modulemap; sourceTree = "<group>"; };
-		EFFA85ADF1048866F40A14C95B751439 /* FeatureNoby.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FeatureNoby.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EFFA85ADF1048866F40A14C95B751439 /* FeatureNoby.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FeatureNoby.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F0C4B362FCBF889344352A3677F16533 /* Pods-FeatureNoby_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeatureNoby_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F2E1191D3B94442E855EF19EBCD1A7AB /* Pods-FeatureNoby_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FeatureNoby_Example-umbrella.h"; sourceTree = "<group>"; };
 		F969E1BDE46269352538ABE7E596CCA8 /* Pods-FeatureNoby_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FeatureNoby_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -181,6 +185,8 @@
 				6DA2E5015E1B926D79D5833A0CDA32E1 /* ReplaceMe.swift */,
 				4981069C4C4A4D747A0296FFC807F492 /* Pod */,
 				20BDEDD046EE6E9C6D5FF44266D8D781 /* Support Files */,
+				BBB6D4DE26F0AF5700C05610 /* FeatureNobyTopViewController.swift */,
+				BBB6D4E026F0AF6000C05610 /* FeatureNobyTopViewController.storyboard */,
 			);
 			name = FeatureNoby;
 			path = ../..;
@@ -350,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB6D4E126F0AF6000C05610 /* FeatureNobyTopViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +392,7 @@
 			files = (
 				4DA465EFA56720D64D33935D8F1F5B70 /* FeatureNoby-dummy.m in Sources */,
 				FFAB08B817AC6B0118DD941F2D0CF221 /* ReplaceMe.swift in Sources */,
+				BBB6D4DF26F0AF5700C05610 /* FeatureNobyTopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,8 +695,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
