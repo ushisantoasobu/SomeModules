@@ -14,8 +14,8 @@
 		640FAFAF426E2B2ED58689E62C0C1051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		66B69EBA73BFEA870A90218AA0F7D9E9 /* Pods-FeatureNoby_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1D8AF9D1FCC4DB448D386946D6E617 /* Pods-FeatureNoby_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A0319BE13BE0590EE4D6B1E98FC2AC6 /* Pods-FeatureNoby_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2E1191D3B94442E855EF19EBCD1A7AB /* Pods-FeatureNoby_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBB6D4DF26F0AF5700C05610 /* FeatureNobyTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6D4DE26F0AF5700C05610 /* FeatureNobyTopViewController.swift */; };
-		BBB6D4E126F0AF6000C05610 /* FeatureNobyTopViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB6D4E026F0AF6000C05610 /* FeatureNobyTopViewController.storyboard */; };
+		BBB6D4EC26F0B3C400C05610 /* FeatureNobyTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB6D4EA26F0B3C400C05610 /* FeatureNobyTopViewController.swift */; };
+		BBB6D4ED26F0B3C400C05610 /* FeatureNobyTopViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB6D4EB26F0B3C400C05610 /* FeatureNobyTopViewController.storyboard */; };
 		D6B66E9A8969520E07C5215ED026CB57 /* Pods-FeatureNoby_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E22BC3FE0211C06F610B55DF7D23CF79 /* Pods-FeatureNoby_Example-dummy.m */; };
 		F7A078E3FB9F2633AAE4D35AC0D008C8 /* Pods-FeatureNoby_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F969E1BDE46269352538ABE7E596CCA8 /* Pods-FeatureNoby_Tests-dummy.m */; };
 		FFAB08B817AC6B0118DD941F2D0CF221 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2E5015E1B926D79D5833A0CDA32E1 /* ReplaceMe.swift */; };
@@ -57,8 +57,8 @@
 		A90B6CD3C08DC5175BFB3C45C6D83655 /* FeatureNoby-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeatureNoby-prefix.pch"; sourceTree = "<group>"; };
 		B0787D9898581E79C79B67CFD0F3AF9A /* Pods-FeatureNoby_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeatureNoby_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B71C3D2027694D9AB0D90ECCC222C7E6 /* Pods-FeatureNoby_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeatureNoby_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BBB6D4DE26F0AF5700C05610 /* FeatureNobyTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureNobyTopViewController.swift; sourceTree = "<group>"; };
-		BBB6D4E026F0AF6000C05610 /* FeatureNobyTopViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeatureNobyTopViewController.storyboard; sourceTree = "<group>"; };
+		BBB6D4EA26F0B3C400C05610 /* FeatureNobyTopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeatureNobyTopViewController.swift; path = FeatureNoby/Classes/FeatureNobyTopViewController.swift; sourceTree = "<group>"; };
+		BBB6D4EB26F0B3C400C05610 /* FeatureNobyTopViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FeatureNobyTopViewController.storyboard; path = FeatureNoby/Classes/FeatureNobyTopViewController.storyboard; sourceTree = "<group>"; };
 		BD855CE2BFB8146E73B5281905518266 /* Pods_FeatureNoby_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeatureNoby_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DB074735D5170A8CB5D085A595B2F4 /* Pods-FeatureNoby_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FeatureNoby_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C7EB4D4F15C6FE92423462EC09526D41 /* FeatureNoby-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeatureNoby-dummy.m"; sourceTree = "<group>"; };
@@ -182,11 +182,11 @@
 		92B5BB95A2E6A7A3248CA1DF5C175A72 /* FeatureNoby */ = {
 			isa = PBXGroup;
 			children = (
+				BBB6D4EB26F0B3C400C05610 /* FeatureNobyTopViewController.storyboard */,
+				BBB6D4EA26F0B3C400C05610 /* FeatureNobyTopViewController.swift */,
 				6DA2E5015E1B926D79D5833A0CDA32E1 /* ReplaceMe.swift */,
 				4981069C4C4A4D747A0296FFC807F492 /* Pod */,
 				20BDEDD046EE6E9C6D5FF44266D8D781 /* Support Files */,
-				BBB6D4DE26F0AF5700C05610 /* FeatureNobyTopViewController.swift */,
-				BBB6D4E026F0AF6000C05610 /* FeatureNobyTopViewController.storyboard */,
 			);
 			name = FeatureNoby;
 			path = ../..;
@@ -356,7 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB6D4E126F0AF6000C05610 /* FeatureNobyTopViewController.storyboard in Resources */,
+				BBB6D4ED26F0B3C400C05610 /* FeatureNobyTopViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +392,7 @@
 			files = (
 				4DA465EFA56720D64D33935D8F1F5B70 /* FeatureNoby-dummy.m in Sources */,
 				FFAB08B817AC6B0118DD941F2D0CF221 /* ReplaceMe.swift in Sources */,
-				BBB6D4DF26F0AF5700C05610 /* FeatureNobyTopViewController.swift in Sources */,
+				BBB6D4EC26F0B3C400C05610 /* FeatureNobyTopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

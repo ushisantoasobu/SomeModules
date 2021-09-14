@@ -10,7 +10,10 @@ import UIKit
 public class FeatureNobyTopViewController: UIViewController {
 
     public static func instantiate() -> FeatureNobyTopViewController {
-        let sb = UIStoryboard(name: "FeatureNobyTopViewController", bundle: nil)
+        let sb = UIStoryboard(
+            name: "FeatureNobyTopViewController",
+            bundle: Bundle.init(identifier: "org.cocoapods.FeatureNoby")
+        )
         return sb.instantiateInitialViewController() as! FeatureNobyTopViewController
     }
 
