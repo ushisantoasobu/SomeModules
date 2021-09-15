@@ -64,7 +64,7 @@ research around mobile-micro-service
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  spec.platform     = :ios
+
   spec.platform     = :ios, "11.0"
 
   #  When using multiple platforms
@@ -141,7 +141,7 @@ research around mobile-micro-service
 
   spec.subspec 'FeatureNoby' do |a|
     a.source_files = 'FeatureNoby/FeatureNoby/Classes/**/*'
-    a.dependency = 'UshisanSomeModules/DesignSystem', :git => 'https://github.com/ushisantoasobu/SomeModules.git'
+    a.dependency 'UshisanSomeModules/DesignSystem'
   end
 
 end
