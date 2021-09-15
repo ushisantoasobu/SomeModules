@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'FeatureNoby_Example' do
   pod 'FeatureNoby', :path => '../'
+  pod 'DesignSystem', :path => '../../DesignSystem/'
 
   target 'FeatureNoby_Tests' do
     inherit! :search_paths

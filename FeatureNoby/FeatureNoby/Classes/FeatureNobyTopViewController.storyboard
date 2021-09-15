@@ -31,6 +31,9 @@
                             <constraint firstItem="XFG-yM-gKk" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="TtR-Me-khJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mainLabel" destination="XFG-yM-gKk" id="iYj-0w-Zef"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

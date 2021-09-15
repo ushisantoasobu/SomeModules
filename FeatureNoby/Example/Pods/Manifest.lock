@@ -1,16 +1,22 @@
 PODS:
-  - FeatureNoby (0.1.0)
+  - DesignSystem (0.1.0)
+  - FeatureNoby (0.1.0):
+    - DesignSystem
 
 DEPENDENCIES:
+  - DesignSystem (from `../../DesignSystem/`)
   - FeatureNoby (from `../`)
 
 EXTERNAL SOURCES:
+  DesignSystem:
+    :path: "../../DesignSystem/"
   FeatureNoby:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FeatureNoby: 3ad201b209e6729d9bb7d70f17149df63683850b
+  DesignSystem: a1abad81efb5c949ac9fa0aea3de572ba90a12a2
+  FeatureNoby: a0171184552d36f0d0bc8f7db761f409d179c656
 
-PODFILE CHECKSUM: 0bea95ea5bc4d80f0a6b6a72756b9388d3a77c40
+PODFILE CHECKSUM: 890ec68fd0289f5c94f35491ba6f7010f389ea34
 
 COCOAPODS: 1.10.1

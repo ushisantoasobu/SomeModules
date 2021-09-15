@@ -6,8 +6,11 @@
 //
 
 import UIKit
+import DesignSystem
 
 public class FeatureNobyTopViewController: UIViewController {
+
+    @IBOutlet weak var mainLabel: UILabel!
 
     public static func instantiate() -> FeatureNobyTopViewController {
         let sb = UIStoryboard(
@@ -20,7 +23,7 @@ public class FeatureNobyTopViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        mainLabel.textColor = Color.primary
     }
 
 }

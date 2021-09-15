@@ -15,7 +15,6 @@
 		5A157300BFC36C1D4992AAABBDF4DE43 /* Pods-DesignSystem_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F338A51A24F5BADEAEED70973B46BA /* Pods-DesignSystem_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A59821D31EF3FD2D2A02B0CD0AC3C186 /* Pods-DesignSystem_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44737AE2B13633C8DE4832AF83096766 /* Pods-DesignSystem_Tests-dummy.m */; };
 		BBCC880726F1C9E200640A59 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC880626F1C9E200640A59 /* Color.swift */; };
-		BBCC880926F1C9F500640A59 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCC880826F1C9F500640A59 /* Color.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		B67137E859C854C093E4726CF0D311AD /* Pods-DesignSystem_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DesignSystem_Tests-Info.plist"; sourceTree = "<group>"; };
 		BBB9D11DBBF3F16D772A415B60C73878 /* DesignSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DesignSystem-umbrella.h"; sourceTree = "<group>"; };
 		BBCC880626F1C9E200640A59 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Color.swift; path = DesignSystem/Classes/Color.swift; sourceTree = "<group>"; };
-		BBCC880826F1C9F500640A59 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Color.xcassets; path = DesignSystem/Assets/Color.xcassets; sourceTree = "<group>"; };
 		BF4FF2D1174C9A5FB2AE32C1E3273FDA /* Pods-DesignSystem_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DesignSystem_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DD5ADE2B3681AA453DF4DA3CAFC701EF /* DesignSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DesignSystem-dummy.m"; sourceTree = "<group>"; };
 		E7F338A51A24F5BADEAEED70973B46BA /* Pods-DesignSystem_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DesignSystem_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 				BBCC880626F1C9E200640A59 /* Color.swift */,
 				534FC067FCFFDDB86BB8840084ABD46D /* Pod */,
 				523D1006D769F3CE43144B0FD5C74548 /* Support Files */,
-				BBCC880826F1C9F500640A59 /* Color.xcassets */,
 			);
 			name = DesignSystem;
 			path = ../..;
@@ -283,7 +280,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBCC880926F1C9F500640A59 /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

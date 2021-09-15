@@ -8,6 +8,6 @@
 import Foundation
 import UIKit
 
-public struct Color {
-    public static var primary = UIColor(named: "primary")
+public class Color {
+    public static var primary = UIColor(red: 0.5, green: 0.6, blue: 0.1, alpha: 1.0)
 }
