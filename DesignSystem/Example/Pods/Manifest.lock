@@ -1,0 +1,16 @@
+PODS:
+  - DesignSystem (0.1.0)
+
+DEPENDENCIES:
+  - DesignSystem (from `../`)
+
+EXTERNAL SOURCES:
+  DesignSystem:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DesignSystem: 08d814f0d9d9ec77880c5622357df33df6a537a3
+
+PODFILE CHECKSUM: c2adc8e844be836c9453072f2b18ca176ec75edd
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DesignSystem_Tests' do
+  pod 'DesignSystem', :path => '../'
+  
+  
+end
