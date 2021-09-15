@@ -135,4 +135,8 @@ research around mobile-micro-service
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
+  spec.subspec 'DesignSystem' do |a|
+    a.source_files = 'DesignSystem/DesignSystem/Classes/**/*'
+  end
+
 end
