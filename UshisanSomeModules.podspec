@@ -139,4 +139,9 @@ research around mobile-micro-service
     a.source_files = 'DesignSystem/DesignSystem/Classes/**/*'
   end
 
+  spec.subspec 'FeatureNoby' do |a|
+    a.source_files = 'FeatureNoby/FeatureNoby/Classes/**/*'
+    a.dependency = 'UshisanSomeModules/DesignSystem'
+  end
+
 end
