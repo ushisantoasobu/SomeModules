@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'DesignSystem/Classes/**/*'
+  s.source_files = 'DesignSystem/DesignSystem/Classes/**/*'
   
    s.resource_bundles = {
-     'DesignSystem' => ['DesignSystem/Assets/**/*']
+     'DesignSystem' => ['DesignSystem/DesignSystem/Assets/**/*']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
