@@ -141,7 +141,7 @@ research around mobile-micro-service
 
   spec.subspec 'FeatureNoby' do |a|
     a.source_files = 'FeatureNoby/FeatureNoby/Classes/**/*'
-    a.dependency 'UshisanSomeModules/DesignSystem'
+    a.dependency 'DesignSystem'
   end
 
 end
